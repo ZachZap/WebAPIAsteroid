@@ -14,7 +14,7 @@ var bgMain = new Image();
 var cookieSprite = new Image();
 var highScoreElements = document.querySelector('.highscore');
 
-/*var express = require("express");
+var express = require("express");
 var app = express();
 var router = express.Router();
 var path = require("path");
@@ -32,7 +32,7 @@ mongoose.connect("mongodb://0.0.0.0:27017/games",{
     console.log("Connection with mongoDB database successful")
 }).catch(function(err){
     console.log(err);
-});*/
+});
 
 app.use(express.static(__dirname + "/pages"));
 
